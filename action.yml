@@ -13,11 +13,11 @@ inputs:
     required: false
   extract-git-tag:
     description: 'Extract git-tag from repository'
-    default: "false"
+    default: "true"
     required: false
   dockerfile:
     description: 'Dockerfile name'
-    default: "Dockerfile"
+    default: "Dockerfile-production"
     required: false
   build-context:
     description: 'Path to build context'
